@@ -15,6 +15,7 @@
 		7A2EF41E1FE2242F0050FCDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2EF41D1FE2242F0050FCDB /* main.m */; };
 		7A2EF4281FE2242F0050FCDB /* MyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2EF4271FE2242F0050FCDB /* MyDemoTests.m */; };
 		7A2EF4331FE2242F0050FCDB /* MyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2EF4321FE2242F0050FCDB /* MyDemoUITests.m */; };
+		7A2EF4481FE22B270050FCDB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2EF4471FE22B270050FCDB /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7A2EF42E1FE2242F0050FCDB /* MyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2EF4321FE2242F0050FCDB /* MyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoUITests.m; sourceTree = "<group>"; };
 		7A2EF4341FE2242F0050FCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2EF4461FE22B270050FCDB /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7A2EF4471FE22B270050FCDB /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7A2EF40F1FE2242F0050FCDB /* AppDelegate.m */,
 				7A2EF4111FE2242F0050FCDB /* ViewController.h */,
 				7A2EF4121FE2242F0050FCDB /* ViewController.m */,
+				7A2EF4461FE22B270050FCDB /* Person.h */,
+				7A2EF4471FE22B270050FCDB /* Person.m */,
 				7A2EF4141FE2242F0050FCDB /* Main.storyboard */,
 				7A2EF4171FE2242F0050FCDB /* Assets.xcassets */,
 				7A2EF4191FE2242F0050FCDB /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				7A2EF4131FE2242F0050FCDB /* ViewController.m in Sources */,
 				7A2EF41E1FE2242F0050FCDB /* main.m in Sources */,
+				7A2EF4481FE22B270050FCDB /* Person.m in Sources */,
 				7A2EF4101FE2242F0050FCDB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
