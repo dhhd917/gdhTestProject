@@ -10,4 +10,6 @@
 
 @interface Person : NSObject
 
+@property (nonatomic,strong) NSObject *object;
+
 @end
